@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textregistered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="620dp"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+    <Button
+        android:id="@+id/textbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="120dp"
+        android:background="#2196F3"
+        android:backgroundTint="#03A9F4"
+        android:text="Register"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#9E0A0A"
+        android:textColorLink="#9F7C7C"
+        tools:ignore="TextContrastCheck" />
+</RelativeLayout>
